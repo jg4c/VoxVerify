@@ -71,3 +71,12 @@ View the prediction score to see whether the voice is Human or AI.
 
 Thank you for using the Real-Time Deepfake Voice Detection and Verification application.
 Enjoy exploring and experimenting with the system!
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+⚖️ License & Rights
+
+© 2025 Jamal Gwarada — All Rights Reserved.
+
+This project and all associated files are the intellectual property of the author.
+No part of this repository may be copied, distributed, modified, or used for commercial or non-commercial purposes without explicit written permission from the owner.
