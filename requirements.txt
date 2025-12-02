@@ -1,0 +1,14 @@
+torch~=2.2.0
+librosa~=0.10.1
+numpy~=1.26.3
+scipy
+sounddevice~=0.4.6
+Flask~=3.0.2
+pandas~=2.2.0
+soundfile~=0.12.1
+werkzeug~=3.0.1
+matplotlib~=3.8.4
+scikit-learn~=1.4.0
+future~=1.0.0
+seaborn~=0.13.2
+tkinterdnd2~=0.3.0

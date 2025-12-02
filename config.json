@@ -1,0 +1,46 @@
+{
+  "data": {
+    "annotations_file": "./../data/annotations.csv",
+    "audio_dirs": {
+      "Human": "./../data/audio/Human",
+      "AI generated": "./../data/audio/Ai"
+    }
+  },
+  "model": {
+    "path": "./../model/model.pth",
+    "learning_rate": 0.001,
+    "batch_size": 10,
+    "num_epochs": 30,
+    "device": "cpu"
+  },
+  "audio": {
+    "sample_rate": 22050,
+    "duration": 5,
+    "format": "wav",
+    "directory": "./../data/analysed_audio",
+    "n_mfcc": 13,
+    "human_audio_path": "./../data/audio/Human/JAMAL.wav",
+    "ai_audio_path": "./../data/audio/Ai/JAMALAI.wav"
+  },
+  "audio_augmentation": {
+    "sample_rate": 22050,
+    "pitch_factors": [
+      -2,
+      2
+    ],
+    "speed_factors": [
+      0.9,
+      1.1
+    ],
+    "paths": {
+      "original_human_voice_dir": "./../data/audio/Human/",
+      "output_human_voice_dir": "./../augmented_data/human_voice_augmented",
+      "original_ai_voice_dir": "./../data/audio/AI",
+      "output_ai_voice_dir": "./../augmented_data/ai_voice_augmented"
+    }
+  },
+  "gui": {
+    "sample_rate": 44100,
+    "duration": 5
+  }
+}
