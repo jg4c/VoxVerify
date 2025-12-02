@@ -1,19 +1,73 @@
-his is a Real-time Deepfake Voice Detection and Verification application.
+📌 Features
+🎤 Real-Time Voice Recording
 
-Every file is linked to the 'app.py' file and when the app.py file is ran, you will see two buttons. One being a "Start Recording" button and the other being a "Stop Recording button".
+Running app.py launches the application interface, where you will see two buttons:
 
-You're also able to drag and drop an audio file which you will the click the analyse audio button.
+Start Recording
 
-After you have recorded a voice. You will then be shown a score; if the voice is a Human or Ai voice.
+Stop Recording
 
-Python 3.9 is recommended.
+These allow you to capture live audio directly from your microphone.
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-Install packages when prompted or run the command ' pip install requirements.txt '.
+📁 Audio File Upload
+
+You may also drag and drop an audio file into the application.
+After uploading, click Analyse Audio to process the file.
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+🧠 Deepfake Detection Result
+
+After recording or analysing an audio clip, the system will display a prediction score showing whether the voice is:
+
+Human, or
+
+AI-generated
+
+🛠 Installation
+Recommended Python Version
+
+Python 3.9
+
+Install Required Packages
+
+Run:
+
+pip install -r requirements.txt
+
+🔧 Model Training & Audio Augmentation
+Retrain the Deepfake Voice Classifier
+
+To retrain the model, run:
+
+python Voice_Classifier.py
+
+Generate Augmented Training Data
+
+To augment your audio dataset, run:
+
+python Audio_Augmentation.py
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+🚀 Getting Started
+
+Install dependencies
+
+Run the application:
+
+python app.py
 
 
-To retrain the model please run 'Voice_Classifier.py'
+Choose to:
 
-To augment the audio please run the 'Audio_Augmentation.py' file.
+record live audio, or
 
+drag & drop an audio file
 
-Thank you and enjoy.
+View the prediction score to see whether the voice is Human or AI.
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+🙌 Thank You
+
+Thank you for using the Real-Time Deepfake Voice Detection and Verification application.
+Enjoy exploring and experimenting with the system!
